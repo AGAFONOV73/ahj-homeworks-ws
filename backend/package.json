@@ -1,0 +1,24 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "src/server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@koa/router": "^15.3.0",
+        "cors": "^2.8.6",
+        "koa": "^3.1.1",
+        "koa-static": "^5.0.0",
+        "ws": "^8.19.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
+    }
+}
